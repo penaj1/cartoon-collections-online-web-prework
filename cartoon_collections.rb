@@ -8,7 +8,6 @@ fruits = ["apple", "banana", "orange"]
 veggies = ["carrot", "cucumber", "pepper"]
 def summon_captain_planet(veggies)
   veggies.each { |veggies| puts veggies.capitalize + "!" }
-  fruits.each { |fruits| put fruits.capitalize + "!" }
 end
 
 def long_planeteer_calls# code an argument here
