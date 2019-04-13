@@ -13,6 +13,5 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheddar_types = ["cheddar", "gouda", "camembert"]
-  cheese.find do |cheese|
   cheddar_cheese.index {|x| x == "cheddar"}
 end
