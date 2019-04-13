@@ -4,6 +4,7 @@ def roll_call_dwarves(dwarves)
 end
 
 veggies = ["carrot", "cucumber", "pepper"]
+fruits = ["apple", "banana", "orange"]
 def summon_captain_planet(veggies)
   veggies.each { |veggies| puts veggies.capitalize + '!' }
 end
