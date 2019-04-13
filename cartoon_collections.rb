@@ -3,11 +3,7 @@ def roll_call_dwarves(dwarves)
   dwarves.each_with_index{ |dwarves, i | puts "#{i+1}. #{dwarves}" }
 end
 
-veggies = ["carrot", "cucumber", "pepper"]
-fruits = ["apple", "banana", "orange"]
-veggies = ["carrot", "cucumber", "pepper"]
 def summon_captain_planet(veggies)
-  veggies.collect do |veggies| veggies.capitalize + "!"
 end
 
 def long_planeteer_calls# code an argument here
