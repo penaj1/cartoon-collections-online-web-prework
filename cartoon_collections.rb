@@ -13,5 +13,5 @@ end
 
 def find_the_cheese(cheddar_cheese)
   cheddar_cheese = ["cheddar", "gouda", "camembert"]
-  cheddar_cheese.find |cheddar_cheese| cheese == "cheddar"
+  cheddar_cheese.find |cheddar_cheese| cheddar_cheese == "cheddar"
 end
