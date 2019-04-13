@@ -8,7 +8,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls)
- %w{ant bear cat}.one? { |word| word.length > 4 }
+  calls.one? { |calls| calls.length > 4 }
 end
 
 def find_the_cheese# code an argument here
