@@ -5,7 +5,7 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(planeteer_calls)
-  # Your code here
+  planeteer_calls.map! {|planeteer_calls| planeteer_calls.capitalize }# Your code here
 end
 
 def long_planeteer_calls# code an argument here
