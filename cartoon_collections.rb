@@ -5,6 +5,7 @@ end
 
 veggies = ["carrot", "cucumber", "pepper"]
 fruits = ["apple", "banana", "orange"]
+veggies = ["carrot", "cucumber", "pepper"]
 def summon_captain_planet(veggies)
   veggies.each { |veggies| puts veggies.capitalize + '!' }
 end
